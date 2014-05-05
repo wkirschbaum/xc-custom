@@ -7,14 +7,8 @@
     apps:
     - /Applications/Firefox.app
     - /Applications/Airmail.app
-    - /Applications/Dashlane.app
-    - /Applications/Spotify.app
-    - /Applications/Airmail.app
-    - "/Applications/Adobe Photoshop CC/Adobe Photoshop CC.app"
-    - "/Applications/Adobe Illustrator CC/Adobe Illustrator.app"
     - /Applications/Atom.app
     - /Applications/iTerm.app
-    - /Applications/Dash.app
     folders:
     - path: ~/
     - path: ~/Documents
@@ -36,8 +30,8 @@
   # cli
   # shell tooling
   - role: git
-    git_user_name: Bob Bob
-    git_user_email: bob.bob@example.com
+    git_user_name: Wilhelm Kirschbaum
+    git_user_email: wkirschbaum@gmail.com
   - role: legit
   - role: hub
   - role: brew_package
@@ -45,7 +39,6 @@
   ## languages
   - role: brew_package
     package_name: node
-  - role: rbenv
   - role: npm_package
     package_name: grunt
   - role: npm_package
